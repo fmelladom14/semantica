@@ -1,0 +1,29 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#> 
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX sd: <http://www.w3.org/ns/sparql-service-description#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/> 
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX cc: <http://creativecommons.org/ns#>
+
+<http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers> rdf:type dcat:Dataset ;
+                                    rdfs:label "Alzheimer Disease" ;
+                                    foaf:primaryTopic "Common pathways of Alzheimer's" ;
+                                    dct:License <http://creativecommons.org/licenses/MIT/> ; 
+                                    dcat:distribution <http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers/sparql>  ;
+                                    sd:namedGraph <http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers/graph> .
+
+<http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers/sparql> a dcat:Distribution ;
+  dcat:accessURL <http://dayhoff.inf.um.es:3041/blazegraph/namespaces/AlzheimersDis/sparql> ;
+  dct:license <http://creativecommons.org/licenses/by/3.0/es/> .
+
+<http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers/graph> rdfs:label "Pathway Alzheimer Graph"@es ;
+                            rdf:type sd:NamedGraph .
+
+<http://creativecommons.org/licenses/MIT/>
+  a cc:License ;
+  cc:permits cc:Distribution, cc:Reproduction, cc:DerivativeWorks ;
+  cc:licenseClass <http://creativecommons.org/license/software> ;
+  cc:requires cc:Notice ;
+  cc:legalcode <http://opensource.org/licenses/mit-license.php> .

@@ -1,0 +1,8 @@
+{
+    "baseConfig": "trifid:config-sparql.json",
+    "sparqlEndpointUrl": "http://155.54.239.183:3041/blazegraph/namespace/Alzheimers/sparql",
+    "datasetBaseUrl": "http://www.semanticweb.org/",
+	"listener": {
+		"port": 3041
+	}
+}

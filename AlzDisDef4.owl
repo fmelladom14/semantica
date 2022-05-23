@@ -1,0 +1,2291 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimer&apos;sDisease#"
+     xml:base="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimer&apos;sDisease"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:www="https://www.uniprot.org/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:owl1="http://www.w3.org/2002/07/owl/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:sDisease="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimer&apos;sDisease#"
+     xmlns:Alzheimers="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#PubChem -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#PubChem"/>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#encodedBy -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#encodedBy">
+        <rdfs:comment>The process in which a gene&apos;s sequence is converted into a mature gene product (protein or RNA). This includes the production of an RNA transcript and its processing, translation and maturation for protein-coding genes.</rdfs:comment>
+        <rdfs:label>Transcription+traduction</rdfs:label>
+        <owl1:sameAs>http://amigo.geneontology.org/amigo/term/GO:0010467</owl1:sameAs>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#hasInput -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#hasInput">
+        <owl1:sameAs>http://purl.obolibrary.org/obo/MI_0840</owl1:sameAs>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#hasLocation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#hasLocation">
+        <owl1:sameAs>http://purl.obolibrary.org/obo/BFO_0000011</owl1:sameAs>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#input -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#input"/>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#locatedIn -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#locatedIn">
+        <owl1:sameAs>http://amigo.geneontology.org/amigo/term/GO:0050000</owl1:sameAs>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#mediatedBy -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#mediatedBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#molecularWeight -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#molecularWeight">
+        <owl1:sameAs>http://purl.obolibrary.org/obo/MI_2025.</owl1:sameAs>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#output -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#output"/>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#participatesIn -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#participatesIn">
+        <owl1:sameAs rdf:resource="http://purl.obolibrary.org/obo/BFO_0000056"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl/sameAs -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl/sameAs"/>
+    
+
+
+    <!-- https://www.uniprot.org/uniprot -->
+
+    <owl:AnnotationProperty rdf:about="https://www.uniprot.org/uniprot"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#hasMolecularComponent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#hasMolecularComponent"/>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#input -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#input"/>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#mediatedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#mediatedBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#output -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#output"/>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#takesPlaceIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#takesPlaceIn"/>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#transcriptFrom -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#transcriptFrom"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://amigo.geneontology.org/amigo/term/CHEBI:23367#Molecular_entity -->
+
+    <owl:Class rdf:about="http://amigo.geneontology.org/amigo/term/CHEBI:23367#Molecular_entity">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Molecular_entity"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Material_entity"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://amigo.geneontology.org/amigo/term/CHEBI:24431#Simple_chemical -->
+
+    <owl:Class rdf:about="http://amigo.geneontology.org/amigo/term/CHEBI:24431#Simple_chemical">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Simple_Chemical"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Material_entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://amigo.geneontology.org/amigo/term/CHEBI:25512#Neurotransmisor -->
+
+    <owl:Class rdf:about="http://amigo.geneontology.org/amigo/term/CHEBI:25512#Neurotransmisor">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Neurotransmisor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Molecular_entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://amigo.geneontology.org/amigo/term/GO:0001540#ABSignaling -->
+
+    <owl:Class rdf:about="http://amigo.geneontology.org/amigo/term/GO:0001540#ABSignaling">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ABSignaling"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Signaling"/>
+    </owl:Class>
+    
+
+
+    <!-- http://amigo.geneontology.org/amigo/term/GO:0005694#Chromosome -->
+
+    <owl:Class rdf:about="http://amigo.geneontology.org/amigo/term/GO:0005694#Chromosome">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Chromosome"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Genetic_material"/>
+        <rdfs:comment>A structure composed of a very long molecule of DNA and associated proteins (e.g. histones) that carries hereditary information.</rdfs:comment>
+        <rdfs:label>Chromosome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://amigo.geneontology.org/amigo/term/GO:0005737#cytoplasm -->
+
+    <owl:Class rdf:about="http://amigo.geneontology.org/amigo/term/GO:0005737#cytoplasm">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cytoplasm"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#neuron"/>
+    </owl:Class>
+    
+
+
+    <!-- http://amigo.geneontology.org/amigo/term/GO:0005759#mitochondria -->
+
+    <owl:Class rdf:about="http://amigo.geneontology.org/amigo/term/GO:0005759#mitochondria">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#mitochondria"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#neuron"/>
+    </owl:Class>
+    
+
+
+    <!-- http://amigo.geneontology.org/amigo/term/GO:0005776#AutophagosomalMembrane -->
+
+    <owl:Class rdf:about="http://amigo.geneontology.org/amigo/term/GO:0005776#AutophagosomalMembrane">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#AutophagosomalMembrane"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Biological_process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://amigo.geneontology.org/amigo/term/GO:0005788#endoplasmatic_reticulum -->
+
+    <owl:Class rdf:about="http://amigo.geneontology.org/amigo/term/GO:0005788#endoplasmatic_reticulum">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#endoplasmatic_reticulum"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#neuron"/>
+    </owl:Class>
+    
+
+
+    <!-- http://amigo.geneontology.org/amigo/term/GO:0006914#Autophagy -->
+
+    <owl:Class rdf:about="http://amigo.geneontology.org/amigo/term/GO:0006914#Autophagy">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Autophagy"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Pathway"/>
+    </owl:Class>
+    
+
+
+    <!-- http://amigo.geneontology.org/amigo/term/GO:0006915#apoptoticSingal -->
+
+    <owl:Class rdf:about="http://amigo.geneontology.org/amigo/term/GO:0006915#apoptoticSingal">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#apoptoticSignal"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Signaling"/>
+    </owl:Class>
+    
+
+
+    <!-- http://amigo.geneontology.org/amigo/term/GO:0006954#Inflammatory_process -->
+
+    <owl:Class rdf:about="http://amigo.geneontology.org/amigo/term/GO:0006954#Inflammatory_process">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Inflammatory_process"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Pathway"/>
+    </owl:Class>
+    
+
+
+    <!-- http://amigo.geneontology.org/amigo/term/GO:0006954#inflammatorySignaling -->
+
+    <owl:Class rdf:about="http://amigo.geneontology.org/amigo/term/GO:0006954#inflammatorySignaling">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#inflammatorySignaling"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Signaling"/>
+    </owl:Class>
+    
+
+
+    <!-- http://amigo.geneontology.org/amigo/term/GO:0007165#Signaling -->
+
+    <owl:Class rdf:about="http://amigo.geneontology.org/amigo/term/GO:0007165#Signaling">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Signaling"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://amigo.geneontology.org/amigo/term/GO:0009986#cell_membrane -->
+
+    <owl:Class rdf:about="http://amigo.geneontology.org/amigo/term/GO:0009986#cell_membrane">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cell_membrane"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#neuron"/>
+    </owl:Class>
+    
+
+
+    <!-- http://amigo.geneontology.org/amigo/term/GO:0038201#MTOR -->
+
+    <owl:Class rdf:about="http://amigo.geneontology.org/amigo/term/GO:0038201#MTOR">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#MTOR"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#autophagocytosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://amigo.geneontology.org/amigo/term/GO:0042417#Dopamine_metabolism -->
+
+    <owl:Class rdf:about="http://amigo.geneontology.org/amigo/term/GO:0042417#Dopamine_metabolism">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Dopamine_metabolism"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Pathway"/>
+    </owl:Class>
+    
+
+
+    <!-- http://amigo.geneontology.org/amigo/term/GO:0065007#Process -->
+
+    <owl:Class rdf:about="http://amigo.geneontology.org/amigo/term/GO:0065007#Process">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://amigo.geneontology.org/amigo/term/GO:0070997#CellDeath -->
+
+    <owl:Class rdf:about="http://amigo.geneontology.org/amigo/term/GO:0070997#CellDeath">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CellDeath"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Biological_process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://amigo.geneontology.org/amigo/term/GO:0071264#nutrientStarvation -->
+
+    <owl:Class rdf:about="http://amigo.geneontology.org/amigo/term/GO:0071264#nutrientStarvation">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#nutrientStarvation"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Signaling"/>
+    </owl:Class>
+    
+
+
+    <!-- http://amigo.geneontology.org/amigo/term/GO:0097194#Apoptosis -->
+
+    <owl:Class rdf:about="http://amigo.geneontology.org/amigo/term/GO:0097194#Apoptosis">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Apoptosis"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Pathway"/>
+        <rdfs:comment>A stage of the apoptotic process that starts with the controlled breakdown of the cell through the action of effector caspases or other effector molecules (e.g. cathepsins, calpains etc.). Key steps of the execution phase are rounding-up of the cell, retraction of pseudopodes, reduction of cellular volume (pyknosis), chromatin condensation, nuclear fragmentation (karyorrhexis), plasma membrane blebbing and fragmentation of the cell into apoptotic bodies. When the execution phase is completed, the cell has died.</rdfs:comment>
+        <rdfs:label>Apoptosis execution phase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://amigo.geneontology.org/amigo/term/GO:0098780#MytochondrialDysfunction -->
+
+    <owl:Class rdf:about="http://amigo.geneontology.org/amigo/term/GO:0098780#MytochondrialDysfunction">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#MitochondrialDysfunction"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Biological_process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://amigo.geneontology.org/amigo/term/GO:0106003#AmyloidB -->
+
+    <owl:Class rdf:about="http://amigo.geneontology.org/amigo/term/GO:0106003#AmyloidB">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#AmyloidB"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Protein"/>
+    </owl:Class>
+    
+
+
+    <!-- http://amigo.geneontology.org/amigo/term/GO:1901096#authopagocytosis -->
+
+    <owl:Class rdf:about="http://amigo.geneontology.org/amigo/term/GO:1901096#authopagocytosis">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#autophagocytosis"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Protein"/>
+    </owl:Class>
+    
+
+
+    <!-- http://amigo.geneontology.org/amigo/term/GO:1902235#Endoplasm_matlfunctaion -->
+
+    <owl:Class rdf:about="http://amigo.geneontology.org/amigo/term/GO:1902235#Endoplasm_matlfunctaion">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Endoplasm_malfunction"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Pathway"/>
+    </owl:Class>
+    
+
+
+    <!-- http://amigo.geneontology.org/amigo/term/PR:000000001#Protein -->
+
+    <owl:Class rdf:about="http://amigo.geneontology.org/amigo/term/PR:000000001#Protein">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Protein"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Molecular_entity"/>
+        <rdfs:comment>An amino acid chain that is produced de novo by ribosome-mediated translation of a genetically-encoded mRNA, and any derivatives thereof.</rdfs:comment>
+        <rdfs:label>Protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://amigo.geneontology.org/amigo/term/SO:0000704#Gene -->
+
+    <owl:Class rdf:about="http://amigo.geneontology.org/amigo/term/SO:0000704#Gene">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Gene"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Genetic_material"/>
+    </owl:Class>
+    
+
+
+    <!-- http://amigo.geneontology.org/amigo/term/WBbt:0003679#neuron -->
+
+    <owl:Class rdf:about="http://amigo.geneontology.org/amigo/term/WBbt:0003679#neuron">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#neuron"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Physical_compartment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://amigo.geneontology.org/amigo/term/WBbt:0008628#Physicial_compartment -->
+
+    <owl:Class rdf:about="http://amigo.geneontology.org/amigo/term/WBbt:0008628#Physicial_compartment">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Physical_compartment"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Material_entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ABSignaling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ABSignaling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Signaling"/>
+        <rdfs:comment>Binding to an amyloid-beta peptide/protein.</rdfs:comment>
+        <rdfs:label>Amyloid-beta binding to a receptor protein.</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ABaggregate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ABaggregate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Homomer"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#hasMolecularComponent"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#AmyloidB"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>AmyloidB aggregated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ADH -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ADH">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#enzime"/>
+        <Alzheimers:encodedBy rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ADH_gene"/>
+        <Alzheimers:molecularWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">39</Alzheimers:molecularWeight>
+        <rdfs:comment>There are 7 different ADH&apos;s isozymes in human: three belongs to class-I: alpha, beta, and gamma, one to class-II: pi, one to class-III: chi, one to class-IV: ADH7 and one to class-V: ADH6.</rdfs:comment>
+        <rdfs:label>ADH (Alcohol deshidrogenase A)</rdfs:label>
+        <owl1:sameAs>https://www.uniprot.org/uniprot/P07327</owl1:sameAs>
+        <www:uniprot rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/P07327"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ADH_gene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ADH_gene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Gene"/>
+        <Alzheimers:locatedIn rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#I"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ALDH -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ALDH">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#enzime"/>
+        <Alzheimers:encodedBy rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ALDH_gene"/>
+        <Alzheimers:molecularWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">41</Alzheimers:molecularWeight>
+        <rdfs:comment>Converts gamma-trimethylaminobutyraldehyde into gamma-butyrobetaine with high efficiency (in vitro). Can catalyze the irreversible oxidation of a broad range of aldehydes to the corresponding acids in an NAD-dependent reaction, but with low efficiency.</rdfs:comment>
+        <rdfs:label>ALDH</rdfs:label>
+        <owl1:sameAs>https://www.uniprot.org/uniprot/P49189</owl1:sameAs>
+        <www:uniprot rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/P49189"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ALDH_gene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ALDH_gene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Gene"/>
+        <Alzheimers:locatedIn rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#I"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ATG10 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ATG10">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#autophagocytosis"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#transcriptFrom"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ATG10_gene"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Alzheimers:encodedBy rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ATG10_gene"/>
+        <Alzheimers:molecularWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">34</Alzheimers:molecularWeight>
+        <rdfs:comment>Ubiquitin-like-conjugating enzyme ATG10 (EC 2.3.2.-) (Autophagy-related protein 10) (APG10-like)</rdfs:comment>
+        <rdfs:label>ATG10</rdfs:label>
+        <owl1:sameAs>https://www.uniprot.org/uniprot/Q9H090</owl1:sameAs>
+        <www:uniprot>Q9H090</www:uniprot>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ATG10_gene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ATG10_gene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Gene"/>
+        <Alzheimers:locatedIn rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#VI"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ATG17_gene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ATG17_gene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Gene"/>
+        <Alzheimers:locatedIn rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#VII"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ATG3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ATG3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#autophagocytosis"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#transcriptFrom"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ATG3_gene"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Alzheimers:encodedBy rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ATG3_gene"/>
+        <Alzheimers:molecularWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">35</Alzheimers:molecularWeight>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ubiquitin-like-conjugating enzyme ATG3 (EC 2.3.2.-) (Autophagy-related protein 3) (APG3-like) (hApg3) (Protein PC3-96)</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATG3</rdfs:label>
+        <owl1:sameAs>https://www.uniprot.org/uniprot/Q9NT62</owl1:sameAs>
+        <www:uniprot rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Q9NT62"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ATG3_7_10_5_heteromer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ATG3_7_10_5_heteromer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Heteromer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ATG3_gene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ATG3_gene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Gene"/>
+        <Alzheimers:locatedIn rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#XII"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ATG5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ATG5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#autophagocytosis"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#transcriptFrom"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ATG5_gene"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Alzheimers:encodedBy rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ATG5_gene"/>
+        <Alzheimers:molecularWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">55</Alzheimers:molecularWeight>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autohagy protein 5 (APG5-like) (Apoptosis-specific protein)</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATG5</rdfs:label>
+        <owl1:sameAs>https://www.uniprot.org/uniprot19H1Y0</owl1:sameAs>
+        <www:uniprot rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Q9H1Y0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ATG5_gene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ATG5_gene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Gene"/>
+        <Alzheimers:locatedIn rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#VI"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ATG7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ATG7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#autophagocytosis"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#transcriptFrom"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ATG7_gene"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Alzheimers:encodedBy rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ATG7_gene"/>
+        <Alzheimers:molecularWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40</Alzheimers:molecularWeight>
+        <rdfs:comment>Ubiquitin-like modifier-activating enzyme ATG7 (ATG12-activating enzyme E1 ATG7) (Autophagy-related protein 7) (APG7-like) (hAGP7) (Ubiquitin-activating enzyme E1-like protein)</rdfs:comment>
+        <rdfs:label>ATG7</rdfs:label>
+        <owl1:sameAs>https://www.uniprot.org/uniprotO95352</owl1:sameAs>
+        <www:uniprot rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/O95352"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ATG7_gene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ATG7_gene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Gene"/>
+        <Alzheimers:locatedIn rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#VI"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#AmyloidB -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#AmyloidB">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Protein"/>
+        <Alzheimers:molecularWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">31</Alzheimers:molecularWeight>
+        <rdfs:comment>Protein complex involved in modulation of signaling and synaptic function in the brain, predominantly in the cerebral cortex and hippocampus. Forms dimers and multimers of amyloid beta peptide 40 and peptide 42 (proteolytic cleavage products of amyloid beta A4 protein, also known as amyloid beta precursor protein). Mostly found in the extracellular space with a proportion occurring as membrane-bound species. Influences synaptic plasticity through various receptors, mediates dendritic spine loss leading to decreased synapse density, inhibits long-term potentiation (LTP) and enhances long-term depression (LTD). Soluble multimeric form is the main pathogenic species linked to Alzheimer&apos;s disease.</rdfs:comment>
+        <rdfs:label>AmyloidB</rdfs:label>
+        <owl1:sameAs>https://www.uniprot.org/uniprot/B7Z313</owl1:sameAs>
+        <www:uniprot rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/B7Z313"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Apoptosis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Apoptosis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Pathway"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#AutophagosomalMembrane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#AutophagosomalMembrane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Biological_process"/>
+        <rdfs:comment>A double-membrane-bounded compartment that engulfs endogenous cellular material as well as invading microorganisms to target them to the lytic vacuole/lysosome for degradation as part of macroautophagy.</rdfs:comment>
+        <rdfs:label>Autophagosomal membrane formation.</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Autophagy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Autophagy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Pathway"/>
+        <rdfs:comment>The cellular catabolic process in which cells digest parts of their own cytoplasm; allows for both recycling of macromolecular constituents under conditions of cellular stress and remodeling the intracellular structure for cell differentiation</rdfs:comment>
+        <rdfs:label>Autophagy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Biological_process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Biological_process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CASP1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CASP1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#caspase"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#transcriptFrom"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CASP1_gene"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Alzheimers:encodedBy rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CASP1_gene"/>
+        <Alzheimers:molecularWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20</Alzheimers:molecularWeight>
+        <rdfs:comment>Caspase-1 (CASP-1) (EC 3.4.22.36) (Interleukin-1 beta convertase) (IL-1BC) (Interleukin-1 beta-converting enzyme) (ICE) (IL-1 beta-converting enzyme) (p45) [Cleaved into: Caspase-1 subunit p20; Caspase-1 subunit p10]</rdfs:comment>
+        <rdfs:label>CASP1</rdfs:label>
+        <owl1:sameAs>https://www.uniprot.org/uniprotP29266</owl1:sameAs>
+        <www:uniprot rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/P29266"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CASP1_gene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CASP1_gene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Gene"/>
+        <Alzheimers:locatedIn rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#XX"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CASP2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CASP2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#caspase"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#transcriptFrom"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CASP2_gene"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Alzheimers:encodedBy rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CASP2_gene"/>
+        <Alzheimers:molecularWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">23</Alzheimers:molecularWeight>
+        <rdfs:comment>Caspase-2 (CASP-2) (EC 3.4.22.55) (Neural precursor cell expressed developmentally down-regulated protein 2) (NEDD-2) (Protease ICH-1) [Cleaved into: Caspase-2 subunit p18; Caspase-2 subunit p13; Caspase-2 subunit p12]</rdfs:comment>
+        <rdfs:label>CASP2</rdfs:label>
+        <owl1:sameAs>https://www.uniprot.org/uniprot/P42575</owl1:sameAs>
+        <www:uniprot rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/P42575"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CASP2_gene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CASP2_gene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Gene"/>
+        <Alzheimers:locatedIn rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#XX"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CASP3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CASP3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#caspase"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#transcriptFrom"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CASP3_gene"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Alzheimers:encodedBy rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CASP3_gene"/>
+        <Alzheimers:molecularWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</Alzheimers:molecularWeight>
+        <rdfs:comment>Caspase-3 (CASP-3) (EC 3.4.22.56) (Apopain) (Cysteine protease CPP32) (CPP-32) (Protein Yama) (SREBP cleavage activity 1) (SCA-1) [Cleaved into: Caspase-3 subunit p17; Caspase-3 subunit p12]</rdfs:comment>
+        <rdfs:label>CASP3</rdfs:label>
+        <owl1:sameAs>https://www.uniprot.org/uniprot/P42574</owl1:sameAs>
+        <www:uniprot rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/P42574"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CASP3_a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CASP3_a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#caspase"/>
+        <rdfs:label>Activated CASP3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CASP3_gene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CASP3_gene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Gene"/>
+        <Alzheimers:locatedIn rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#XX"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CASP6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CASP6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#caspase"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#transcriptFrom"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CASP6_gene"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Alzheimers:encodedBy rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CASP6_gene"/>
+        <Alzheimers:molecularWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">34</Alzheimers:molecularWeight>
+        <rdfs:comment>Caspase-6 (CASP-6) (EC 3.4.22.59) (Apoptotic protease Mch-2) [Cleaved into: Caspase-6 subunit p18; Caspase-6 subunit p11]</rdfs:comment>
+        <rdfs:label>CASP6</rdfs:label>
+        <owl1:sameAs>https://www.uniprot.org/uniprot/P55212</owl1:sameAs>
+        <www:uniprot rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/P55212"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CASP6_gene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CASP6_gene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Gene"/>
+        <Alzheimers:locatedIn rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#XX"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CCL2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CCL2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cytokine"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#transcriptFrom"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CCL2_gene"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Alzheimers:encodedBy rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CCL2_gene"/>
+        <Alzheimers:molecularWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</Alzheimers:molecularWeight>
+        <rdfs:comment>C-C motif chemokine 2 (HC11) (Monocyte chemoattractant protein 1) (Monocyte chemotactic and activating factor) (MCAF) (Monocyte chemotactic protein 1) (MCP-1) (Monocyte secretory protein JE) (Small-inducible cytokine A2)</rdfs:comment>
+        <rdfs:label>CCL2</rdfs:label>
+        <owl1:sameAs>https://www.uniprot.org/uniprot/P13500</owl1:sameAs>
+        <www:uniprot rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/P13500"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CCL2_gene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CCL2_gene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Gene"/>
+        <Alzheimers:locatedIn rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#VI"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CD36 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CD36">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#receptor"/>
+        <rdfs:label>CD36</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CellDeath -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CellDeath">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Biological_process"/>
+        <rdfs:comment>The process of cell death in a neuron.</rdfs:comment>
+        <rdfs:label>CellDeath</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CellToxicity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CellToxicity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Biological_process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Chromosome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Chromosome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Genetic_material"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#DOPAC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#DOPAC">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Neurotransmisor"/>
+        <Alzheimers:PubChem rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">547</Alzheimers:PubChem>
+        <rdfs:label>DOPAC (3,4-Dihydroxyphenylacetic acid, Homoprotocatechuic acid)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#DOPAL -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#DOPAL">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Neurotransmisor"/>
+        <Alzheimers:PubChem rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">121231067</Alzheimers:PubChem>
+        <rdfs:label>DOPAL (2-(3,4-Dihydroxyphenyl)acetaldehyde-D5)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#DOPET -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#DOPET">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Neurotransmisor"/>
+        <Alzheimers:PubChem rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">82755</Alzheimers:PubChem>
+        <rdfs:label>DOPET (hydreoxytyrosol, 2-(3,4-Dihydroxyphenyl)ethanol)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Dopamine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Dopamine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Neurotransmisor"/>
+        <Alzheimers:PubChem rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">681</Alzheimers:PubChem>
+        <rdfs:label>Dopamine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Dopamine_metabolism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Dopamine_metabolism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Pathway"/>
+        <rdfs:comment>he chemical reactions and pathways involving dopamine, a catecholamine neurotransmitter and a metabolic precursor of noradrenaline and adrenaline.</rdfs:comment>
+        <rdfs:label>Dopamine metabolic processing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Endoplasm_malfunction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Endoplasm_malfunction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Pathway"/>
+        <rdfs:comment>Any process that modulates the frequency, rate or extent of an endoplasmic reticulum stress-induced intrinsic apoptotic signaling pathway.</rdfs:comment>
+        <rdfs:label>Endoplasm regulation and malfunction during apoptosis.</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Gene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Gene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Genetic_material"/>
+        <rdfs:comment>A  region (or regions) that includes all of the sequence elements necessary to encode a functional transcript. A gene may include regulatory regions, transcribed regions and/or other functional sequence regions.</rdfs:comment>
+        <rdfs:label>Gene</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Genetic_material -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Genetic_material">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Molecular_entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Heteromer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Heteromer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#protein_aggegate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Homomer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Homomer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#protein_aggegate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#I -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#I">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Chromosome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#II -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#II">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Chromosome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#III -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#III">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Chromosome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#IL1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#IL1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cytokine"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#transcriptFrom"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#IL1_gene"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Alzheimers:encodedBy rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#IL1_gene"/>
+        <Alzheimers:molecularWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</Alzheimers:molecularWeight>
+        <rdfs:comment>Interleukin-1 alpha (also hematopoietin-1).</rdfs:comment>
+        <rdfs:label>IL1A</rdfs:label>
+        <owl1:sameAs>https://www.uniprot.org/uniprot/P01583</owl1:sameAs>
+        <www:uniprot rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/P01583"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#IL1B -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#IL1B">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cytokine"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#transcriptFrom"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#IL1B_gene"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Alzheimers:encodedBy rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#IL1B_gene"/>
+        <Alzheimers:molecularWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</Alzheimers:molecularWeight>
+        <rdfs:comment>Interleukin-1 beta (IL-1 beta) (Catabolin)</rdfs:comment>
+        <rdfs:label>IL1B</rdfs:label>
+        <owl1:sameAs>https://www.uniprot.org/uniprot/P01584</owl1:sameAs>
+        <www:uniprot rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/P01584"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#IL1B_gene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#IL1B_gene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Gene"/>
+        <Alzheimers:locatedIn rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#XIV"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#IL1_gene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#IL1_gene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Gene"/>
+        <Alzheimers:locatedIn rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#XIII"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#IL4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#IL4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cytokine"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#transcriptFrom"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#IL4_gene"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Alzheimers:encodedBy rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#IL4_gene"/>
+        <Alzheimers:molecularWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20</Alzheimers:molecularWeight>
+        <rdfs:comment>Interleukin-4 (IL-4) (B-cell stimulatory factor 1) (BSF-1) (Binetrakin) (Lymphocyte stimulatory factor 1) (Pitrakinra)</rdfs:comment>
+        <rdfs:label>IL4</rdfs:label>
+        <owl1:sameAs>https://www.uniprot.org/uniprot/P05112</owl1:sameAs>
+        <www:uniprot rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/P05112"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#IL4_gene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#IL4_gene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Gene"/>
+        <Alzheimers:locatedIn rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#XVI"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#IL6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#IL6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cytokine"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#transcriptFrom"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#IL6_gene"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Alzheimers:encodedBy rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#IL6_gene"/>
+        <Alzheimers:molecularWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28</Alzheimers:molecularWeight>
+        <rdfs:comment>Interleukin-6 (IL-6) (B-cell stimulatory factor 2) (BSF-2) (CTL differentiation factor) (CDF) (Hybridoma growth factor) (Interferon beta-2) (IFN-beta-2)</rdfs:comment>
+        <rdfs:label>IL6</rdfs:label>
+        <owl1:sameAs>https://www.uniprot.org/uniprot/P08887</owl1:sameAs>
+        <www:uniprot rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/P08887"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#IL6_gene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#IL6_gene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Gene"/>
+        <Alzheimers:locatedIn rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#XVII"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#IX -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#IX">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Chromosome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Inflammatory_process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Inflammatory_process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Pathway"/>
+        <rdfs:comment>The immediate defensive reaction (by vertebrate tissue) to infection or injury caused by chemical or physical agents. The process is characterized by local vasodilation, extravasation of plasma into intercellular spaces and accumulation of white blood cells and macrophages.</rdfs:comment>
+        <rdfs:label>Inflammatory response</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#InsulinReceptor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#InsulinReceptor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#receptor"/>
+        <Alzheimers:molecularWeight rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/157"/>
+        <owl1:sameAs>https://www.uniprot.org/uniprot/P06213</owl1:sameAs>
+        <www:uniprot rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/P06213"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#MAO -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#MAO">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#enzime"/>
+        <Alzheimers:molecularWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">55</Alzheimers:molecularWeight>
+        <rdfs:comment>Catalyzes the oxidative deamination of biogenic and xenobiotic amines and has important functions in the metabolism of neuroactive and vasoactive amines in the central nervous system and peripheral tissues. MAOA preferentially oxidizes biogenic amines such as 5-hydroxytryptamine (5-HT), norepinephrine and epinephrine.</rdfs:comment>
+        <rdfs:label>MAO (Monoamineooxidase)</rdfs:label>
+        <owl1:sameAs>https://www.uniprot.org/uniprot/P21397</owl1:sameAs>
+        <www:uniprot rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/P21397"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#MAO_gene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#MAO_gene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Gene"/>
+        <Alzheimers:locatedIn rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#X"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#MCU -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#MCU">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#receptor"/>
+        <rdfs:label>MCU</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#MTOR -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#MTOR">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#autophagocytosis"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#transcriptFrom"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#MTOR_gene"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Alzheimers:encodedBy rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#MTOR_gene"/>
+        <Alzheimers:molecularWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">300</Alzheimers:molecularWeight>
+        <rdfs:comment>Serine/threonine-protein kinase mTOR (EC 2.7.11.1) (FK506-binding protein 12-rapamycin complex-associated protein 1) (FKBP12-rapamycin complex-associated protein) (Mammalian target of rapamycin) (mTOR) (Mechanistic target of rapamycin) (Rapamycin and FKBP12 target 1) (Rapamycin target protein 1)</rdfs:comment>
+        <rdfs:label>MTOR</rdfs:label>
+        <www:uniprot rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/P42345"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#MTOR_gene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#MTOR_gene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Gene"/>
+        <Alzheimers:locatedIn rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#II"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Material_entity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Material_entity">
+        <rdfs:label>Material_entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#MitochondrialDysfunction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#MitochondrialDysfunction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Biological_process"/>
+        <rdfs:comment>Any process that results in a change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) in response to the depolarization of one or more mitochondria</rdfs:comment>
+        <rdfs:label>Mitochondria dysfunction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Molecular_entity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Molecular_entity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Material_entity"/>
+        <rdfs:comment>Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity.</rdfs:comment>
+        <rdfs:label>Any molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Neurotransmisor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Neurotransmisor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Molecular_entity"/>
+        <rdfs:comment>An endogenous compound that is used to transmit information across the synapse between a neuron and another cell.</rdfs:comment>
+        <rdfs:label>Neurotransmitter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Pathway -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Pathway">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Process"/>
+        <rdfs:label>Pathway</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Physical_compartment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Physical_compartment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Material_entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Process">
+        <rdfs:comment>Any process that modulates a measurable attribute of any biological process, quality or function.</rdfs:comment>
+        <rdfs:label>Process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Proteasome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Proteasome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Heteromer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Protein -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Protein">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Molecular_entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#RAGE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#RAGE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#receptor"/>
+        <rdfs:label>RAGE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Signaling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Signaling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Process"/>
+        <rdfs:comment>The cellular process in which a signal is conveyed to trigger a change in the activity or state of a cell. Signal transduction begins with reception of a signal (e.g. a ligand binding to a receptor or receptor activation by a stimulus such as light), or for signal transduction in the absence of ligand, signal-withdrawal or the activity of a constitutively active receptor. Signal transduction ends with regulation of a downstream cellular process, e.g. regulation of transcription or regulation of a metabolic process. Signal transduction covers signaling from receptors located on the surface of the cell and signaling via molecules located within the cell. For signaling between cells, signal transduction is restricted to events at and within the receiving cell.</rdfs:comment>
+        <rdfs:label>Signaling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Simple_Chemical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Simple_Chemical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Material_entity"/>
+        <rdfs:comment>A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances.</rdfs:comment>
+        <rdfs:label>Any simple chemical such as ions.</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#TLR -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#TLR">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#receptor"/>
+        <rdfs:label>Toll Like Receptor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#TNFA -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#TNFA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cytokine"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#transcriptFrom"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#TNFA_gene"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Alzheimers:encodedBy rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#TNFA_gene"/>
+        <Alzheimers:molecularWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">25</Alzheimers:molecularWeight>
+        <rdfs:comment>Tumor necrosis factor (Cachectin) (TNF-alpha) (Tumor necrosis factor ligand superfamily member 2) (TNF-a) [Cleaved into: Tumor necrosis factor, membrane form (N-terminal fragment) (NTF); Intracellular domain 1 (ICD1); Intracellular domain 2 (ICD2); C-domain 1; C-domain 2; Tumor necrosis factor, soluble form]</rdfs:comment>
+        <rdfs:label>TNFA</rdfs:label>
+        <owl1:sameAs>https://www.uniprot.org/uniprot/P01375</owl1:sameAs>
+        <www:uniprot rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/P01375"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#TNFA_gene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#TNFA_gene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Gene"/>
+        <Alzheimers:locatedIn rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#XVII"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#TNFB -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#TNFB">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cytokine"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#transcriptFrom"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#TNFB_gene"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Alzheimers:encodedBy rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#TNFB_gene"/>
+        <Alzheimers:molecularWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">26</Alzheimers:molecularWeight>
+        <rdfs:comment>Lymphotoxin-alpha (LT-alpha) (TNF-beta) (Tumor necrosis factor ligand superfamily member 1)</rdfs:comment>
+        <owl1:sameAs>https://www.uniprot.org/uniprot/P01374</owl1:sameAs>
+        <www:uniprot rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/P01374"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#TNFB_gene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#TNFB_gene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Gene"/>
+        <Alzheimers:locatedIn rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#XVII"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#TREM2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#TREM2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#receptor"/>
+        <rdfs:label>TREM2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#V -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#V">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Chromosome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#VI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#VI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Chromosome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#VII -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#VII">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Chromosome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#VIII -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#VIII">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Chromosome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#X -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#X">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Chromosome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#XI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#XI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Chromosome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#XII -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#XII">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Chromosome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#XIII -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#XIII">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Chromosome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#XIV -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#XIV">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Chromosome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#XVI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#XVI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Chromosome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#XVII -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#XVII">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Chromosome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#XX -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#XX">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Chromosome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#apoptoticSignal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#apoptoticSignal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Signaling"/>
+        <rdfs:comment>A programmed cell death process which begins when a cell receives an internal (e.g. DNA damage) or external signal (e.g. an extracellular death ligand), and proceeds through a series of biochemical events (signaling pathway phase) which trigger an execution phase. The execution phase is the last step of an apoptotic process, and is typically characterized by rounding-up of the cell, retraction of pseudopodes, reduction of cellular volume (pyknosis), chromatin condensation, nuclear fragmentation (karyorrhexis), plasma membrane blebbing and fragmentation of the cell into apoptotic bodies. When the execution phase is completed, the cell has died.</rdfs:comment>
+        <rdfs:label>Signaling of the apoptotic process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#autophagocytosis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#autophagocytosis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Protein"/>
+        <rdfs:comment>Any protein that modulates the frequency, rate or extent of autophagosome maturation.</rdfs:comment>
+        <rdfs:label>autophagocytosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#caspase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#caspase">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Protein"/>
+        <rdfs:label>caspase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cell_membrane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cell_membrane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#neuron"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cytoplasm"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#endoplasmatic_reticulum"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#mitochondria"/>
+        <rdfs:comment>External barrier that delimites and separates the cell from the outside.</rdfs:comment>
+        <rdfs:label>cell_membrane</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cytokine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cytokine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Protein"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cytoplasm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cytoplasm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#neuron"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#endoplasmatic_reticulum"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#mitochondria"/>
+        <rdfs:comment>The contents of a cell excluding the plasma membrane and nucleus, but including other subcellular structures.</rdfs:comment>
+        <rdfs:label>cytoplasm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#endoplasmatic_reticulum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#endoplasmatic_reticulum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#neuron"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#mitochondria"/>
+        <rdfs:label>endoplasmatic_reticulum</rdfs:label>
+        <owl1:sameAs>GO:0016022</owl1:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#endoplasmatic_reticulum_membrane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#endoplasmatic_reticulum_membrane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#endoplasmatic_reticulum"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#enzime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#enzime">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Protein"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#inflammatorySignaling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#inflammatorySignaling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Signaling"/>
+        <rdfs:comment>Any apoptotic process in an inflammatory cell, any cell participating in the inflammatory response to a foreign substance e.g. neutrophil, macrophage.</rdfs:comment>
+        <rdfs:label>Inflammatory signaling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#mTOR_signaling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#mTOR_signaling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Apoptosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#mitochondria -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#mitochondria">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#neuron"/>
+        <rdfs:comment>A semiautonomous, self replicating organelle that occurs in varying numbers, shapes, and sizes in the cytoplasm of virtually all eukaryotic cells. It is notably the site of tissue respiration. The gel-like material, with considerable fine structure, that lies in the matrix space, or lumen, of a mitochondrion. It contains the enzymes of the tricarboxylic acid cycle and, in some organisms, the enzymes concerned with fatty acid oxidation.</rdfs:comment>
+        <rdfs:label>mitochondria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#neuron -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#neuron">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Physical_compartment"/>
+        <rdfs:comment>Major cell type of nervous tissue, specialized for transmission of information in the form of patterns of impulses.</rdfs:comment>
+        <rdfs:label>Neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#nutrientStarvation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#nutrientStarvation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Signaling"/>
+        <Alzheimers:participatesIn rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#reaccion5"/>
+        <rdfs:comment>Any process that activates or increases the frequency, rate or extent of translation initiation, as a result of deprivation of nourishment.</rdfs:comment>
+        <rdfs:label>Starvation of nourishment for the cell.</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#protein_aggegate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#protein_aggegate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Protein"/>
+        <rdfs:comment>Lymphotoxin-alpha (LT-alpha) (TNF-beta) (Tumor necrosis factor ligand superfamily member 1)</rdfs:comment>
+        <rdfs:label>TNFB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#reaccion5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#reaccion5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#mTOR_signaling"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#input"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#MTOR"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#mediatedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#nutrientStarvation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#takesPlaceIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cytoplasm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Alzheimers:hasInput rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#MTOR"/>
+        <Alzheimers:hasLocation rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cytoplasm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#reaction1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#reaction1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Apoptosis"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#input"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#MitochondrialDysfunction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#output"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#apoptoticSignal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#takesPlaceIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#mitochondria"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Alzheimers:hasLocation rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#mitochondria"/>
+        <Alzheimers:output rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#apoptoticSignal"/>
+        <Alzheimers:participatesIn rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#MitochondrialDysfunction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#reaction10 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#reaction10">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Endoplasm_malfunction"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#input"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#MCU"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#mediatedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ABSignaling"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#takesPlaceIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#endoplasmatic_reticulum_membrane"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Alzheimers:hasLocation rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#endoplasmatic_reticulum_membrane"/>
+        <Alzheimers:mediatedBy rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ABSignaling"/>
+        <Alzheimers:mediatedBy rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#MCU"/>
+        <Alzheimers:output rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CellToxicity"/>
+        <Alzheimers:output rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Ca+2"/>
+        <rdfs:label>Ca+2 release via MCU that leads to cell toxicity.</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#reaction11 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#reaction11">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Endoplasm_malfunction"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#input"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ABaggregate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#mediatedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CD36"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#output"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ABSignaling"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#takesPlaceIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cell_membrane"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Alzheimers:hasInput rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ABSignaling"/>
+        <Alzheimers:hasInput rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ABaggregate"/>
+        <Alzheimers:hasLocation rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cell_membrane"/>
+        <rdfs:label>Abherrant signaling via CD36</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#reaction12 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#reaction12">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Endoplasm_malfunction"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#input"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ABaggregate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#mediatedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#TLR"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#output"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ABSignaling"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#takesPlaceIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cell_membrane"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Alzheimers:hasInput rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ABSignaling"/>
+        <Alzheimers:hasInput rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ABaggregate"/>
+        <Alzheimers:hasLocation rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cell_membrane"/>
+        <rdfs:label>Abherrant signaling via Toll Like Receptor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#reaction13 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#reaction13">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Endoplasm_malfunction"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#input"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ABaggregate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#mediatedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#RAGE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#output"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ABSignaling"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#takesPlaceIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cell_membrane"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Alzheimers:hasInput rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ABSignaling"/>
+        <Alzheimers:hasInput rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ABaggregate"/>
+        <Alzheimers:hasLocation rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cell_membrane"/>
+        <rdfs:label>Abherrant signaling via RAGE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#reaction14 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#reaction14">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Autophagy"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#input"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ATG10"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#input"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ATG7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#takesPlaceIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cytoplasm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Alzheimers:hasInput rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ATG10"/>
+        <Alzheimers:hasInput rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ATG7"/>
+        <Alzheimers:hasLocation rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cytoplasm"/>
+        <rdfs:label>ATG10-ATG7 association</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#reaction15 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#reaction15">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Autophagy"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#input"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ATG10"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#input"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ATG3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#input"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ATG5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#input"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ATG7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#output"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ATG3_7_10_5_heteromer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#takesPlaceIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cytoplasm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Alzheimers:hasInput rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ATG10"/>
+        <Alzheimers:hasInput rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ATG3"/>
+        <Alzheimers:hasInput rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ATG5"/>
+        <Alzheimers:hasInput rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ATG7"/>
+        <Alzheimers:hasLocation rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cytoplasm"/>
+        <rdfs:label>ATG10-ATG7-ATG5-ATG6 association</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#reaction16 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#reaction16">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Autophagy"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#input"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ATG3_7_10_5_heteromer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#output"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#AutophagosomalMembrane"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#takesPlaceIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cell_membrane"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Alzheimers:hasInput rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ATG3_7_10_5_heteromer"/>
+        <Alzheimers:hasLocation rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cell_membrane"/>
+        <Alzheimers:output rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#AutophagosomalMembrane"/>
+        <rdfs:label>Heterotretamer leading to autohagosomal membrane</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#reaction17 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#reaction17">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Inflammatory_process"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#input"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#TLR"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#output"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#inflammatorySignaling"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#takesPlaceIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cell_membrane"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Alzheimers:hasLocation rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cell_membrane"/>
+        <Alzheimers:mediatedBy rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#TLR"/>
+        <Alzheimers:output rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#inflammatorySignaling"/>
+        <rdfs:label>TLR leading to inflammation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#reaction18 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#reaction18">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Inflammatory_process"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#mediatedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#inflammatorySignaling"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#output"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cytokine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#takesPlaceIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cytoplasm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Alzheimers:hasLocation rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cytoplasm"/>
+        <rdfs:label>cytokine_productions</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#reaction19 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#reaction19">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Inflammatory_process"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#input"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#inflammatorySignaling"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#output"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#apoptoticSignal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#takesPlaceIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cytoplasm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Alzheimers:hasInput rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#inflammatorySignaling"/>
+        <Alzheimers:hasLocation rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cytoplasm"/>
+        <Alzheimers:output rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#apoptoticSignal"/>
+        <rdfs:label>Inflammatory signalign leading to apoptosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#reaction2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#reaction2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Apoptosis"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#input"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#apoptoticSignal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#output"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#apoptoticSignal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#takesPlaceIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cytoplasm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Alzheimers:hasInput rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#apoptoticSignal"/>
+        <Alzheimers:hasLocation rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#mitochondria"/>
+        <Alzheimers:input rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CellDeath"/>
+        <rdfs:label>Caspase cascade leading to apoptosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#reaction20 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#reaction20">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Inflammatory_process"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#input"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#inflammatorySignaling"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#output"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CellDeath"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#takesPlaceIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cytoplasm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Alzheimers:hasInput rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#inflammatorySignaling"/>
+        <Alzheimers:hasLocation rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cytoplasm"/>
+        <Alzheimers:output rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CellDeath"/>
+        <rdfs:label>Inflammation leading to cell death</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#reaction3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#reaction3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Apoptosis"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#input"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CASP3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#mediatedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CASP1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#mediatedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CASP2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#output"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CASP3_a"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#takesPlaceIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cytoplasm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Alzheimers:hasInput rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CASP1"/>
+        <Alzheimers:hasLocation rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cytoplasm"/>
+        <Alzheimers:mediatedBy rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CASP2"/>
+        <Alzheimers:mediatedBy rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CASP3"/>
+        <Alzheimers:output rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CASP3_a"/>
+        <rdfs:label>CASP3 activation by CASP1 and CASP2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#reaction4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#reaction4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Apoptosis"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#input"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CASP3_a"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#output"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CellDeath"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#takesPlaceIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cytoplasm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Alzheimers:hasInput rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CASP3_a"/>
+        <Alzheimers:hasLocation rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#cytoplasm"/>
+        <Alzheimers:output rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#CellDeath"/>
+        <rdfs:label>CASP3 leading to cellDeath</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#reaction7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#reaction7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Dopamine_metabolism"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#input"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Dopamine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#mediatedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#MAO"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#output"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#DOPAL"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#takesPlaceIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#mitochondria"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Alzheimers:hasInput rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Dopamine"/>
+        <Alzheimers:hasLocation rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#mitochondria"/>
+        <Alzheimers:mediatedBy rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#DOPAL"/>
+        <Alzheimers:mediatedBy rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#MAO"/>
+        <rdfs:label>Oxidative deamination of dopamine by MAO.</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#reaction8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#reaction8">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Dopamine_metabolism"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#input"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#DOPAL"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#mediatedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ADH"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#output"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#DOPET"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#takesPlaceIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#mitochondria"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Alzheimers:hasInput rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#DOPAL"/>
+        <Alzheimers:hasLocation rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#mitochondria"/>
+        <Alzheimers:mediatedBy rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ADH"/>
+        <Alzheimers:output rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#DOPET"/>
+        <rdfs:comment>Dehydrogenation of DOPAL by ADH to form DOPET</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#reaction9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#reaction9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Dopamine_metabolism"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#input"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#DOPAL"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#mediatedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ALDH"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#output"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#DOPAC"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#takesPlaceIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#mitochondria"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Alzheimers:hasInput rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#DOPAL"/>
+        <Alzheimers:hasLocation rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#mitochondria"/>
+        <Alzheimers:mediatedBy rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#ALDH"/>
+        <Alzheimers:output rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#DOPAC"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#receptor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#receptor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Protein"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Ca+2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Ca+2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/paco/ontologies/2022/4/Alzheimers#Simple_Chemical"/>
+        <Alzheimers:PubChem rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2192</Alzheimers:PubChem>
+        <rdfs:label>Ion Calcium</rdfs:label>
+        <owl1:sameAs>http://amigo.geneontology.org/amigo/term/CHEBI:29108</owl1:sameAs>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
